@@ -1,0 +1,281 @@
+body{
+    background-color: #282a36;
+    position: fixed;
+}
+
+.tool-list{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 1rem;
+    padding-inline-start: 10px;
+}
+
+#sidebar{
+    height: 100vh;
+    width: 10%;
+    background-color: #44475a;
+    float: left;
+}
+
+.tool-list li{
+    text-transform: uppercase;
+    padding-top: .4rem;
+    padding-left: 0;
+    font-size: 0.9rem;
+    font-family: monospace;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.light-blue{
+    color: rgb(44, 188, 236);
+}
+
+.green{
+    color: rgb(56, 241, 32);
+}
+
+.orange{
+    color: rgb(255, 136, 0);
+}
+
+.pink{
+    color: rgb(241, 38, 99);
+}
+
+.purple{
+    color: rgb(185, 39, 117);
+}
+
+.gray{
+    color: gray;
+}
+.yellow{
+    color: yellow;
+}
+
+.javascript-list{
+    position: relative;
+    left: 15px;
+    padding-right: 3rem;
+}
+.clearfix{
+    clear: both;
+}
+.content-area{
+    padding-top: 2rem;
+
+}
+.javascript-list{
+    width: 20%;
+    float: left;
+    
+}
+.javascript-list h5{
+    font-family: monospace;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.java-history{
+    width: 45%;
+    margin: auto;
+    float: left;
+    border-bottom: 3px solid #44475a;
+}
+.java-history h5{
+    font-family: monospace;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+
+.github-history{
+    width: 20%;
+    margin-left: 3rem;
+    float: left;
+}
+.github-history h5{
+    font-family: monospace;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.github-history small{
+    display: inherit;
+    text-align: center;
+    font-size: 12px;
+   
+}
+.content-area h5{
+    color: #8be9fd;
+}
+.github-history small a{
+    text-decoration: none;
+    font-family: monospace;
+    color: #6272a4;
+}
+.github-history small a:hover{
+    color: yellow;
+}
+.context{
+    border-left: 3px solid #44475a;
+    padding-left: 10px;
+    margin-top: 30px;
+    font-family: monospace;
+    
+
+}
+.context:hover{
+    border-left: 3px solid rgb(104, 238, 104);
+}
+.context .textHeader{
+    font-family: Inconsonata, monospace;
+    color: #fff;
+    font-size: 12px;
+}
+ .posted{
+    color: #66d9ef;
+    font-family: inconsonata, monospace;
+    font-size: 14px;
+}
+.user{
+    color: #f1fa8c;
+    font-family: inconsonata, monospace;
+    font-size: 14px;
+}
+.score{
+    color: #6272a4;
+    font-family: inconsonata, monospace;
+    font-size: 14px;
+}
+.links{
+    color: #ff79c6;
+    font-family: inconsonata, monospace;
+    font-size: 14px;
+}
+.links a {
+    text-decoration: none;
+    font-family: inconsonata, monospace;
+    font-size: 14px;
+    color: #ff79c6;
+}
+.links a:hover{
+    color: #8be9fd;
+}
+
+.history-list{
+    margin-left: 2rem;
+    color: #627294;
+    font-family: monospace;
+    margin-top: 0.5rem;
+    float: left;
+    font-size: large;
+}
+.right-flank{
+    float: right;
+    margin-top:0.5rem;
+    color: #627294;
+    font-family: monospace;
+    font-size: large;
+
+}
+.gnav{
+    list-style: none;
+}
+.gnav a{
+    text-decoration: none;
+}
+
+.mini-nav{
+    display: inline;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.f1fa8c, .f1fa8c:hover{
+    color: #f1fa8c;
+}
+.rgb56:hover{
+    color: rgb(56, 241, 32);
+}
+.rgb56{
+    color: #ff79c6;
+}
+.bottom-content{
+    position: absolute;
+    bottom: 250px;
+    left: 15px
+}
+.my-logo{
+    width: 110px;
+}
+.media{
+    list-style: none;
+    padding: 5px;    
+}
+.social-media{
+   
+    bottom: 190px;
+    position: absolute;
+    left: 0;
+    padding-top: 15px;
+    
+}
+.media li{
+    padding: 5px;
+    
+}
+.issue-dropdown{
+    display: none;
+}
+.issue-dropdown h6{
+    font-family: monospace;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.issue-dropdown h6 a{
+    text-decoration: none;
+}
+.issue-dropdown h6:hover{
+    border-left: 3px solid rgb(104, 238, 104);
+    
+}
+
+.request-dropdown h6{
+    font-family: monospace;
+    font-size: 14px;
+    padding-left: 10px;
+    
+    border-left: 3px solid #44475a;
+}
+.request-dropdown h6 a{
+    text-decoration: none;
+}
+.request-dropdown h6:hover{
+    border-left: 3px solid rgb(104, 238, 104);
+    
+}
+.fetch h6 {
+    text-decoration: underline;
+    text-decoration-color: #8be9fd;
+}
+.fetch h6:hover{
+    text-decoration: none;
+}
+.fetch:hover{
+    
+   
+}
+.repo{
+    color: #49975a;
+}
+.pull{
+    color: #ff79c6;
+}
+.full-text{
+    color: #fff;
+}
+
+
+
