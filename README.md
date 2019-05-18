@@ -10,3 +10,5 @@ can, the goal is to become a better developer with or without
 libraries or framework.
 
 Also, I am getting a bit familiar with git gradually.
+
+I had to pull to effect some corrections.
