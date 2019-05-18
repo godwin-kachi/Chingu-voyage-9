@@ -233,6 +233,7 @@ body{
     font-family: monospace;
     font-size: 14px;
     padding-left: 10px;
+    border-left: 3px solid #44475a;
 }
 .issue-dropdown h6 a{
     text-decoration: none;
@@ -241,7 +242,20 @@ body{
     border-left: 3px solid rgb(104, 238, 104);
     
 }
-
+.timer{
+    position: absolute;
+    bottom: 350px;
+    left: 550px;
+    color: #6272a4;
+    
+}
+.timer .date{
+    text-align: center;
+}
+.timer .time{
+    font-size: 8rem;
+    
+}
 .request-dropdown h6{
     font-family: monospace;
     font-size: 14px;
