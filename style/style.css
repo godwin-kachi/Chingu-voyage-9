@@ -53,11 +53,18 @@ body{
 .yellow{
     color: yellow;
 }
+#scrollable{
+    height: 100vh;
+    overflow-y: scroll;
+}
 
 .javascript-list{
     position: relative;
     left: 15px;
-    padding-right: 3rem;
+    padding-right: 3rem; 
+}
+::-webkit-scrollbar{
+    width: 0px;
 }
 .clearfix{
     clear: both;
@@ -204,7 +211,7 @@ body{
 }
 .bottom-content{
     position: absolute;
-    bottom: 250px;
+    bottom: 100px;
     left: 15px
 }
 .my-logo{
@@ -216,7 +223,7 @@ body{
 }
 .social-media{
    
-    bottom: 190px;
+    bottom: 40px;
     position: absolute;
     left: 0;
     padding-top: 15px;
@@ -244,7 +251,7 @@ body{
 }
 .timer{
     position: absolute;
-    bottom: 350px;
+    bottom: 200px;
     left: 550px;
     color: #6272a4;
     

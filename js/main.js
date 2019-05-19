@@ -16,12 +16,6 @@ function hide(){
 }
 
 
-// var scrollable = document.getElementById('scrollable').addEventListener('mouseover', scroll);
-
-// function scroll(){
-//     document.getElementById('scrollable').style.overflow = 'scroll';
-//     document.getElementById('scrollable').style.overflow='auto';
-// }
 var months = ['January', 'February','March','April','May','June','July','August','September','October','November','December'];
 var now = new Date();
 var thisMonth = months[now.getMonth()];
