@@ -16,6 +16,7 @@ function hide(){
 }
 
 
+
 var months = ['January', 'February','March','April','May','June','July','August','September','October','November','December'];
 var now = new Date();
 var thisMonth = months[now.getMonth()];
@@ -32,7 +33,17 @@ var hour = now.getHours()%12;
 document.getElementById('hour').innerHTML = hour;
 
 var minute = now.getMinutes();
-document.getElementById('minute').innerHTML = minute;
+
+if (parseInt(minute) < 10) {
+    minutes = "0" + minute;
+    document.getElementById('minute').innerHTML = minutes;
+
+} else{
+     minutes = minute;
+document.getElementById('minute').innerHTML = minutes;
+}
+
+
 
 if (hourCalc >= 12) {
     document.getElementById('session').innerHTML = "pm";
