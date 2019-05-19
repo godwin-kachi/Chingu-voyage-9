@@ -88,6 +88,8 @@ body{
     margin: auto;
     float: left;
     border-bottom: 3px solid #44475a;
+    height: 35vh;
+    overflow-y:scroll;
 }
 .java-history h5{
     font-family: monospace;
@@ -171,7 +173,6 @@ body{
 }
 
 .history-list{
-    margin-left: 2rem;
     color: #627294;
     font-family: monospace;
     margin-top: 0.5rem;
@@ -251,7 +252,7 @@ body{
 }
 .timer{
     position: absolute;
-    bottom: 200px;
+    bottom: 160px;
     left: 550px;
     color: #6272a4;
     
