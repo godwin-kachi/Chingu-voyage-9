@@ -28,9 +28,11 @@ document.getElementById('day').innerHTML = today;
 var year = now.getFullYear();
 document.getElementById('year').innerHTML = year;
 
-var hourCalc = now.getHours();
-var hour = now.getHours()%12;
-document.getElementById('hour').innerHTML = hour;
+var hour = now.getHours();
+hour = hour % 12;
+hour = hour ? hour : 12; // This should return 12 for 00 hours
+
+ document.getElementById('hour').innerHTML = hour;
 
 var minute = now.getMinutes();
 
@@ -45,8 +47,22 @@ document.getElementById('minute').innerHTML = minutes;
 
 
 
-if (hourCalc >= 12) {
+if (hour >= 12) {
     document.getElementById('session').innerHTML = "pm";
 }else{
     document.getElementById('session').innerHTML = 'am';
 }
+
+
+// function formatAMPM(date) {
+//     var hours = date.getHours();
+//     var minutes = date.getMinutes();
+//     var ampm = hours >= 12 ? 'pm' : 'am';
+//     hours = hours % 12;
+//      hours = hours ? hours : 12; // the hour '0' should be '12'
+//     minutes = minutes < 10 ? '0'+minutes : minutes;
+//     var strTime = hours + ':' + minutes + ' ' + ampm;
+//     return strTime;
+//   }
+  
+//   console.log(formatAMPM(new Date));
