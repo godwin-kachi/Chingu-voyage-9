@@ -30,3 +30,10 @@ I have learnt that working in a team is the one of the best way to learn.
 
 Thanks Chingu.
 I will be tracking my progress though this text document.
+
+19th May, 11:52am
+Realized that there may be need for more contents to be added to the 
+mid section of the page and as such, it may overflow to after the section that is 
+already assigned to the timer, so I activated the scroll element for it using css overflow property.
+Good thing is once ::-webkit-scrollbar {} is declared in your css, it works throughout your the pages linked
+with the css file so no need to call it often.
